@@ -1,0 +1,20 @@
+# Asterisk-with-new-Kernel
+In this project, Capabilities of transmission control protocol (TCP) are used in transport layer to reduce SIP proxy overload through the proper allocation of proxy resources.
+
+-----------------------------------------------------------------
+Since the underlying network in which the implementation and evaluations were performed was based on the open source Asterisk system (the most common open source VOIP system which implements SIP proxy servers), it is easy to develop the proposed algorithm as s module that can be installed on any server. 
+The details of the implementation are discussed in following of the current file.
+Having employed the proposed algorithm, the implemented module evaluates the overload status of the Asterisk and tries to enhance the performance of the Asterisk in that case.
+
+The configuration of Asterisk is performed via a file named asterisk.cfg. This configuration file controls the modules to be loaded and their corresponding parameters. All of the SIP flows are also controlled in several routing blocks defined in this file. The main core of this software is responsible for managing SIP messages and basic functions are placed there. The modules include the main functions. The configuration file controls the modules to be loaded besides providing the capability of assignments of relevant parameters to the user. All of the Sip messages are evaluated in the sections called routing blocks and modified in case of a need. The configuration file consists of seven parts which are discussed in the following:
+ •	Global Definition section: In this section, some important parameters such as IP address and the port that the software should receive the packets from are defined. The expected levels of debugging are also expressed in this section.
+ •	Modules section: The list of external library functions required in the software is defined in this section. These functions are ones that does not exist in the software core and must be loaded in the configuration step.
+ •	Module Configuration section: For correct performance it is required for each module to be initialized and some parameters be assigned to each one. This section consists of the values required or each module.
+ •	The Primary Routing Block: This section is the first place that SIP messages are evaluated and reviewed and also the operations that should be performed on the received messages are controlled in this section.
+ •	The Second Routing Block: The system administrator can define new blocks for better resolution and separation of the code. This section uses a procedure-like definition.
+ •	Response Evaluation section: This block is used for evaluating the returned messages – which are usually 200 OK messages.
+ •	Error Checking section: This section is responsible for performing suitable reaction in case of occurring errors such as TIMEOUT or BUSY.
+The configuration file is a script which is ran for each received SIP message. For example if user A wants to call user B, it should first send INVITE message. This message is processed in the primary routing block of configuration file.
+This process is being continued until it reached to a t-relay (resending the message to destination) or sl-send-reply (sending an error message) command or a command which leads to removing an incoming message. Finally the block is finished using an exit command. It should be noted that the operation of Asterisk is consistent with RFC3261. Hence the configuration of the server would be very difficult without carefully reading those instructions. Each proxy has a router under its control and can modify it before sending the received messages if required. Besides it is notable that the responses should be returned to the source via the same proxy from which they were sent from.
+Each proxy can operate in either stateful or stateless mode. In the former, when a SIP proxy sends a packet to the defined path, it will then remove all of its information. In this case, error checking, accounting and other related tasks cannot be performed easily.
+
