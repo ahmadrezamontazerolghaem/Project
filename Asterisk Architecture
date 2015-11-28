@@ -1,0 +1,29 @@
+File Structure
+
+Asterisk is a complex system, composed of many resources. These resources make use of the filesystem in several ways. Since Linux is so flexible in this regard, it is helpful to understand what data is being stored, so that you can understand where you are likely to find a particular bit of stored data (such as voicemail messages or log files).
+
+Configuration Files
+
+The Asterisk configuration files include extensions.conf, sip.conf, modules.conf, and dozens of other files that define parameters for the various channels, resources, modules, and functions that may be in use.
+
+These files will be found in /etc/asterisk. You will be working in this folder a lot as you configure and administer your Asterisk system.
+
+Modules
+
+Asterisk modules are usually installed to the /usr/lib/asterisk/modules folder. You will not normally have to interact with this folder; however, it will be occasionally useful to know where the modules are located. For example, if you upgrade Asterisk and select different modules during the menuselect phase of the install, the old (incompatible) modules from the previous Asterisk version will not be deleted, and you will get a warning from the install script. Those old files will need to be deleted from the modules folder. This can be done either manually or with the “uninstall” make (make uninstall) target.
+
+The Resource Library
+
+There are several resources that require external data sources. For example, music on hold (MOH) can’t happen unless you have some music to play. System prompts also need to be stored somewhere on the hard drive. The /var/lib/asterisk folder is where system prompts, AGI scripts, music on hold, and other resource files are stored.
+
+The Spool
+
+The spool is where Linux stores files that are going to change frequently, or will be processed by other processes at a later time. For example, under Linux print jobs and pending emails are normally written to the spool until they are processed.
+
+For Asterisk, the spool is used to store transient items such as voice messages, call recordings,[16] call files, and so forth.
+
+The Asterisk spool will be found under the /var/spool/asterisk directory.
+
+Logging
+
+Asterisk is capable of generating several different kinds of log files. The /var/log/asterisk folder is where things such as call detail records (CDRs), channel events from CEL, debug logs, queue logs, messages, errors, and other output are written.
