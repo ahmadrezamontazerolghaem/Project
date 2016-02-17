@@ -1,0 +1,16 @@
+worker:
+  build: .
+  command: bin/work
+  environment:
+   - AWS_ACCESS_KEY
+   - AWS_SECRET_ACCESS_KEY
+  links:
+    - postgres
+  volumes:
+    - .:/app
+  privileged: true
+postgres:
+  image: mdillon/postgis
+  environment:
+   - POSTGRES_USERNAME=postgres
+   - POSTGRES_PASSWORD=password
