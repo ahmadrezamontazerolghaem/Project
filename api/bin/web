@@ -12,3 +12,4 @@ if [ "$DEVELOPMENT" == "true" ]; then
 else
   $GOPATH/bin/api
 fi
+
