@@ -3,7 +3,7 @@
 
 	__INITRODATA
 
-	.align 8
+	.align 8 
 	.globl VMLINUX_SYMBOL(system_certificate_list)
 VMLINUX_SYMBOL(system_certificate_list):
 __cert_list_start:
