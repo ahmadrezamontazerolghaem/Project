@@ -1,7 +1,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/cpu.h>
-
+ 
 #include "notifier-error-inject.h"
 
 static int priority;
