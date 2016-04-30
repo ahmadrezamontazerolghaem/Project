@@ -4,7 +4,7 @@
 #include <asm/unistd.h>
 
 static unsigned dir_class[] = {
-#include <asm-generic/audit_dir_write.h>
+#include <asm-generic/audit_dir_write.h> 
 ~0U
 };
 
