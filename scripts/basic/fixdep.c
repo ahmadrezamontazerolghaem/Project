@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h> 
-#include <ctype.h>
+#include <ctype.h> 
 #include <arpa/inet.h>
 
 #define INT_CONF ntohl(0x434f4e46)
