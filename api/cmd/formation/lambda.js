@@ -9,6 +9,7 @@ exports.external = function(event, context) {
 
   var child = require('child_process').spawn('./formation', [JSON.stringify(event)], { stdio:'inherit' });
 
+
   child.on('close', function(code) {
     if (code !== 0 ) {
       return context.done(new Error("Process exited with non-zero status code: " + code));
