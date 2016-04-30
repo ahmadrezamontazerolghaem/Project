@@ -20,6 +20,7 @@
 
 #include <trace/events/sched.h>
 
+
 #include <asm/setup.h>
 
 #include "trace_output.h"
