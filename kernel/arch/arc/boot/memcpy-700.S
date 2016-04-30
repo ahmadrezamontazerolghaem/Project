@@ -1,5 +1,6 @@
 #include <asm/linkage.h>
 
+
 ARC_ENTRY memcpy
 	or	r3,r0,r1
 	asl_s	r3,r3,30
