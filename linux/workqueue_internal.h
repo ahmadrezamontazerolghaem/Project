@@ -4,7 +4,7 @@
 #include <linux/workqueue.h>
 #include <linux/kthread.h>
 
-struct worker_pool;
+struct worker_pool; 
 
 /*
  * The poor guys doing the actual heavy lifting.  All on-duty workers are
