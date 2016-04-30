@@ -8,7 +8,7 @@ import (
 
 // SIP request parsing errors.
 type ProtocolError struct {
-	ErrorString string
+	ErrorString string 
 }
 
 func (err *ProtocolError) Error() string { return err.ErrorString }
