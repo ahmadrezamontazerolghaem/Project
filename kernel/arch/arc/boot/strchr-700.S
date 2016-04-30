@@ -1,5 +1,6 @@
 #include <asm/linkage.h>
 
+
 ARC_ENTRY strchr
 	extb_s	r1,r1
 	asl	r5,r1,8
