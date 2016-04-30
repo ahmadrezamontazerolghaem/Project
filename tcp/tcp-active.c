@@ -6,7 +6,7 @@
 #include "tcp-active.h"
 
 #include <string.h>
-#include <errno.h>
+#include <errno.h> 
 #include <fcntl.h>
 
 #ifndef G_OS_WIN32
