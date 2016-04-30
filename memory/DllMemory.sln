@@ -8,7 +8,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllLoader", "DllLoader\DllL
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
+	GlobalSection(SolutionConfiguration) = preSolution 
 		Debug = Debug
 		Release = Release
 	EndGlobalSection
