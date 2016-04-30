@@ -9,7 +9,7 @@ type Resource struct {
 	Time time.Time
 }
 
-type Resources map[string]Resource
+type Resources map[string]Resource 
 
 func ListResources(app string) (Resources, error) {
 	res, err := CloudFormation().DescribeStackResources(&cloudformation.DescribeStackResourcesInput{
