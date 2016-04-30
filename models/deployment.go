@@ -13,7 +13,7 @@ type Deployment struct {
 	Release string
 
 	Desired int64
-	Pending int64
+	Pending int64 
 	Running int64
 
 	Created time.Time
