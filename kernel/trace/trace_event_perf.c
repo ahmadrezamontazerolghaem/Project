@@ -2,6 +2,7 @@
 #include <linux/kprobes.h>
 #include "trace.h"
 
+
 static char __percpu *perf_trace_buf[PERF_NR_CONTEXTS];
 
 /*
