@@ -7,7 +7,7 @@ func Docker(host string) (*docker.Client, error) {
 		}
 
 		host = h
-	}
+	} 
 
 	if h := os.Getenv("TEST_DOCKER_HOST"); h != "" {
 		host = h
