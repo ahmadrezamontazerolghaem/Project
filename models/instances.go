@@ -3,7 +3,7 @@ type Instance struct {
 	Cpu       float64   `json:"cpu"`
 	Id        string    `json:"id"`
 	Ip        string    `json:"ip"`
-	Memory    float64   `json:"memory"`
+	Memory    float64   `json:"memory"` 
 	Processes int       `json:"processes"`
 	Status    string    `json:"status"`
 	Started   time.Time `json:"started"`
