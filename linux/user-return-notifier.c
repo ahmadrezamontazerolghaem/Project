@@ -9,7 +9,7 @@ static DEFINE_PER_CPU(struct hlist_head, return_notifier_list);
  * Request a notification when the current cpu returns to userspace.  Must be
  * called in atomic context.  The notifier will also be called in atomic
  * context.
- */
+ */ 
 void user_return_notifier_register(struct user_return_notifier *urn)
 {
 	set_tsk_thread_flag(current, TIF_USER_RETURN_NOTIFY);
