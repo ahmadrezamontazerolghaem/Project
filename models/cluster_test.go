@@ -2,7 +2,7 @@ package models_test
 
 import (
 	"os"
-	"testing"
+	"testing" 
 	"time"
 
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
