@@ -1,8 +1,7 @@
 #include <linux/export.h>
 #include <linux/uts.h>
 #include <linux/utsname.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <linux/err.h> 
 #include <linux/user_namespace.h> 
 #include <linux/proc_ns.h>
 
