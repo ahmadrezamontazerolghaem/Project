@@ -1,6 +1,6 @@
 package sip
 
-import(
+import( 
   "io"
   "strings"
   "net/textproto"
