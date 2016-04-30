@@ -1,7 +1,7 @@
 #ifndef _TCP_PASSIVE_H
 #define _TCP_PASSIVE_H
 
-#include "socket.h"
+#include "socket.h" 
 
 G_BEGIN_DECLS
 
