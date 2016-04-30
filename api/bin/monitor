@@ -8,3 +8,4 @@ if [ "$DEVELOPMENT" == "true" ]; then
 else
   $GOPATH/bin/monitor
 fi
+
