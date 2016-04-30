@@ -6,3 +6,4 @@ libx8664_a_SOURCES	= sha256_xmm_amd64.asm
 
 .asm.o:
 	$(YASM) -f elf64 $<
+
