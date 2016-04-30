@@ -33,6 +33,7 @@ LAB_SHA:
 	lea	rcx, qword [r11+rcx*4]
 	lea	r11, qword [r11+rax*4]
 LAB_CALC:
+
 	movdqa	xmm0, [r11-15*16]
 	movdqa	xmm2, xmm0					; (Rotr32(w_15, 7) ^ Rotr32(w_15, 18) ^ (w_15 >> 3))
 	psrld	xmm0, 3
