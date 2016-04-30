@@ -2,7 +2,7 @@
 #define _OMNI_THREAD_H_
 
 #include <linux/kthread.h>
-
+ 
 typedef struct task_struct* omni_thread_t;
 
 static inline omni_thread_t omni_thread_create(
