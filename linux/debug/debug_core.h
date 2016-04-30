@@ -7,7 +7,7 @@
 
 /* kernel debug core data structures */
 struct kgdb_state {
-	int			ex_vector;
+	int			ex_vector; 
 	int			signo;
 	int			err_code;
 	int			cpu;
