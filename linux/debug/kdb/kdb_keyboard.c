@@ -6,7 +6,7 @@
 
 /* Keyboard Controller Registers on normal PCs. */
 
-#define KBD_STATUS_REG		0x64	/* Status register (R) */
+#define KBD_STATUS_REG		0x64	/* Status register (R) */ 
 #define KBD_DATA_REG		0x60	/* Keyboard data register (R/W) */
 
 /* Status Register Bits */
