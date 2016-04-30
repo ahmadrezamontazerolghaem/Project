@@ -7,7 +7,7 @@ statement S,S1,S2;
 I(x,...) { <...
 (
 - if (x == NULL && ...) S
-|
+| 
 - if (x != NULL || ...)
   S
 |
