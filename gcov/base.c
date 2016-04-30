@@ -9,6 +9,7 @@
 static int gcov_events_enabled;
 static DEFINE_MUTEX(gcov_lock);
 
+
 /*
  * __gcov_init is called by gcc-generated constructor code for each object
  * file compiled with -fprofile-arcs.
