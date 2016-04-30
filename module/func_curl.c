@@ -1,6 +1,6 @@
 #include "asterisk.h"
 
-ASTERISK_REGISTER_FILE()
+ASTERISK_REGISTER_FILE() 
 
 #include <curl/curl.h>
 
