@@ -17,3 +17,4 @@ openssl req -new -key /etc/ssl/convox/server.key -out /etc/ssl/convox/server.csr
 openssl x509 -req -days 365 -in /etc/ssl/convox/server.csr -signkey /etc/ssl/convox/server.key -out /etc/ssl/convox/server.crt
 
 cat /etc/ssl/convox/server.crt /etc/ssl/convox/server.key > /etc/ssl/convox/server.pem
+
