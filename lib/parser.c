@@ -3,7 +3,7 @@ static int match_one(char *s, const char *p, substring_t args[])
 	char *meta;
 	int argc = 0;
 
-	if (!p)
+	if (!p) 
 		return 1;
 
 	while(1) {
