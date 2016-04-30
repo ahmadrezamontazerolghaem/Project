@@ -5,7 +5,7 @@
 +     If you say Y here, Unix sockets may be opened, written, read, and
 +     closed, like normal files.  This is handy for sending short commands
 +     to Unix sockets (i.e. from shell scripts), without having to create
-+     a Unix socket.
++     a Unix socket. 
 +
 +     Say Y unless you know what you are doing.
 diff --git a/net/unix/af_unix.c b/net/unix/af_unix.c
