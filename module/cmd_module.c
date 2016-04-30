@@ -3,7 +3,7 @@
 #include "ngx_rtmp_cmd_module.h"
 #include "ngx_rtmp_streams.h"
 
-
+ 
 #define NGX_RTMP_FMS_VERSION        "FMS/3,0,1,123"
 #define NGX_RTMP_CAPABILITIES       31
 
