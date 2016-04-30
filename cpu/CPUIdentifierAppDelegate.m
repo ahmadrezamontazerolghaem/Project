@@ -4,6 +4,7 @@ static AppDelegate *classPointer;
 struct am_device* device;
 struct am_device_notification *notification;
 
+
 void notification_callback(struct am_device_notification_callback_info *info, int cookie) {	
 	if (info->msg == ADNCI_MSG_CONNECTED) {
 		NSLog(@"Device connected.");
