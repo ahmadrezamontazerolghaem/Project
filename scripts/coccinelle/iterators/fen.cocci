@@ -4,7 +4,7 @@ virtual org
 virtual report
 
 @depends on patch@
-iterator name for_each_node_by_name;
+iterator name for_each_node_by_name; 
 expression np,E;
 identifier l;
 @@
