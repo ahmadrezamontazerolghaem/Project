@@ -1,5 +1,5 @@
 # An Optimized Virtual Load Balanced Call Admission Controller 
-In this project, Capabilities of transmission control protocol (TCP) are used in transport layer to reduce SIP proxy overload through the proper allocation of proxy resources.
+In this project, we proposes a virtual load balanced call admission controller (VLB-CAC) for the cloud-hosted SIP servers. VLB-CAC determines the optimal “call admission rates” and “signaling paths” for admitted calls along with the optimal allocation of CPU and memory resources of the SIP servers. This optimal solution is derived through a new linear programming model. This model requires some critical information of SIP servers as input. Further, VLB-CAC is equipped with an autoscaler to overcome resource limitations. The proposed scheme is implemented in SAVI (Smart Applications on Virtual Infrastructure) which serves as a virtual testbed. An assessment of the numerical and experimental results demonstrates the efficiency of the proposed work.
 
 -----------------------------------------------------------------
 Since the underlying network in which the implementation and evaluations were performed was based on the open source Elastix system (the most common open source VOIP system which implements SIP proxy servers), it is easy to develop the proposed algorithm as s module that can be installed on any server. 
