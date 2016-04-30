@@ -2,7 +2,7 @@
 #include <ngx_core.h>
 #include "ngx_rtmp_play_module.h"
 #include "ngx_rtmp_codec_module.h"
-#include "ngx_rtmp_streams.h"
+#include "ngx_rtmp_streams.h" 
 
 
 static ngx_int_t ngx_rtmp_flv_postconfiguration(ngx_conf_t *cf);
