@@ -6,7 +6,7 @@
 static ngx_rtmp_publish_pt  next_publish;
 static ngx_rtmp_play_pt     next_play;
 
-
+ 
 static ngx_int_t ngx_rtmp_log_postconfiguration(ngx_conf_t *cf);
 static void *ngx_rtmp_log_create_main_conf(ngx_conf_t *cf);
 static void * ngx_rtmp_log_create_app_conf(ngx_conf_t *cf);
