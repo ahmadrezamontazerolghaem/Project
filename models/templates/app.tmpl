@@ -3,7 +3,7 @@
     "AWSTemplateFormatVersion" : "2010-09-09",
     "Conditions": {
       {{ template "balancer-conditions" . }}
-      {{ template "process-conditions" . }}
+      {{ template "process-conditions" . }} 
       {{ template "registry-conditions" . }}
       "BlankCluster": { "Fn::Equals": [ { "Ref": "Cluster" }, "" ] }
     },
