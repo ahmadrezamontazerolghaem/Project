@@ -16,6 +16,7 @@
 #include <signal.h>
 #include <sys/resource.h>
 #if HAVE_SYS_SYSCTL_H
+
 #include <sys/types.h>
 #if HAVE_SYS_PARAM_H
 #include <sys/param.h>
