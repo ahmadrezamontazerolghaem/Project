@@ -5,3 +5,4 @@ $(obj)/vmlinux.bin: vmlinux FORCE
 	@echo 'Kernel: $@ is ready' ' (#'`cat .version`')'
 
 clean-files += vmlinux.bin
+
