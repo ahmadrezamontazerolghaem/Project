@@ -5,7 +5,7 @@
  *
  *  Feature negotiation for the DCCP protocol (RFC 4340, section 6)
  *  Copyright (c) 2008 Gerrit Renker <gerrit@erg.abdn.ac.uk>
- *  Copyright (c) 2005 Andrea Bittau <a.bittau@cs.ucl.ac.uk>
+ *  Copyright (c) 2005 Andrea Bittau <a.bittau@cs.ucl.ac.uk> 
  *
  *  This program is free software; you can redistribute it and/or modify it
  *  under the terms of the GNU General Public License version 2 as
