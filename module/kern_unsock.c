@@ -1,6 +1,6 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include "omni_socket.h"
+#include "omni_socket.h" 
 
 struct socket *unsock;
 struct sockaddr_un dstaddr;
