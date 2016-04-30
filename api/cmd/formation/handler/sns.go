@@ -7,6 +7,7 @@ import (
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/sns"
 )
 
+
 func HandleSNSSubcription(req Request) (string, map[string]string, error) {
 	defer recoverFailure(req)
 
