@@ -7,7 +7,7 @@
 
 using namespace foonathan::memory;
 
-TEST_CASE("memory_stack", "[stack]")
+TEST_CASE("memory_stack", "[stack]") 
 {
     test_allocator alloc;
     memory_stack<allocator_reference<test_allocator>> stack(100, alloc);
