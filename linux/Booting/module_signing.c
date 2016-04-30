@@ -4,7 +4,7 @@
 #include <crypto/hash.h>
 #include <keys/asymmetric-type.h>
 #include <keys/system_keyring.h>
-#include "module-internal.h"
+#include "module-internal.h" 
 
 /*
  * Module signature information block.
