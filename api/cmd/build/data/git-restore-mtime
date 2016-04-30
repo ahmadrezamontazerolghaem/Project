@@ -41,3 +41,4 @@ for line in gitobj.stdout:
     # All files done?
     if not filelist:
         break
+
