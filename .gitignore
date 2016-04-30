@@ -7,7 +7,7 @@
 *.sig
 
 # AUR metadata
-.AURINFO
+.AURINFO 
 .SRCINFO
 
 pkg/
