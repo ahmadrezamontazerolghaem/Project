@@ -13,6 +13,7 @@ ENTRY(__vmsetie)
 ENTRY(__vmgetie)
 	trap1(#HVM_TRAP1_VMGETIE);
 	jumpr	R31;
+	
 
 ENTRY(__vmintop)
 	trap1(#HVM_TRAP1_VMINTOP);
