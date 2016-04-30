@@ -25,6 +25,7 @@
 #include "miner.h"
 #include "elist.h"
 
+
 struct data_buffer {
 	void		*buf;
 	size_t		len;
