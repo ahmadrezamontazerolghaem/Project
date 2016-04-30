@@ -2,6 +2,7 @@
 #include <linux/mutex.h>
 #include <linux/ftrace.h>
 
+
 #include "trace_output.h"
 
 /* must be a power of 2 */
