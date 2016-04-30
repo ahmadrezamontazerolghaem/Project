@@ -12,6 +12,7 @@ void flush_dcache_range(unsigned long start, unsigned long end)
 
 	start &= ~(LINESIZE - 1);
 
+
 	local_irq_save(flags);
 
 	for (i = 0; i < lines; i++) {
