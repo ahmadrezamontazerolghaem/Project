@@ -3,7 +3,7 @@ type Release struct {
 	App      string    `json:"app"`
 	Build    string    `json:"build"`
 	Env      string    `json:"env"`
-	Manifest string    `json:"manifest"`
+	Manifest string    `json:"manifest"` 
 	Created  time.Time `json:"created"`
 }
 
