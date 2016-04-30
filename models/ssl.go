@@ -4,7 +4,7 @@ type SSL struct {
 	Process    string    `json:"process"`
 	Port       int       `json:"port"`
 	Secure     bool      `json:"secure"`
-}
+} 
 
 type SSLs []SSL
 
