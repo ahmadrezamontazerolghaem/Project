@@ -6,7 +6,7 @@
 
 G_BEGIN_DECLS
 
-
+ 
 NiceSocket *
 nice_udp_turn_over_tcp_socket_new (NiceSocket *base_socket,
     NiceTurnSocketCompatibility compatibility);
