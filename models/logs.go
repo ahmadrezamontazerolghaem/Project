@@ -1,7 +1,7 @@
 func subscribeCloudWatchLogs(group string, output chan []byte, quit chan bool) {
 	fmt.Printf("subscribeCloudWatchLogs group=%s\n", group)
 
-	horizonTime := time.Now().Add(-2 * time.Minute)
+	horizonTime := time.Now().Add(-2 * time.Minute) 
 	activeStreams := map[string]bool{}
 
 	for {
