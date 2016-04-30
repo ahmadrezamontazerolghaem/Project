@@ -4,7 +4,7 @@ my $errors = 0;
 my $warnings = 0;
 my $anon_struct_union = 0;
 
-# match expressions used to find embedded type information
+# match expressions used to find embedded type information 
 my $type_constant = '\%([-_\w]+)';
 my $type_func = '(\w+)\(\)';
 my $type_param = '\@(\w+)';
