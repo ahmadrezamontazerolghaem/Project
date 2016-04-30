@@ -9,7 +9,7 @@
         ""
       ]
     },
-    "BlankPostgresService": {
+    "BlankPostgresService": { 
       "Fn::Equals": [
         "",
         ""
