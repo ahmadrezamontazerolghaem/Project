@@ -7,7 +7,7 @@ position p;
 *        E@p
          & ... & E
 |
-*        E@p
+*        E@p 
          | ... | E
 |
 *        E@p
