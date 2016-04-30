@@ -3,7 +3,7 @@ void timerqueue_add(struct timerqueue_head *head, struct timerqueue_node *node)
 	struct rb_node **p = &head->head.rb_node;
 	struct rb_node *parent = NULL;
 	struct timerqueue_node  *ptr;
-
+ 
 	/* Make sure we don't add nodes that are already added */
 	WARN_ON_ONCE(!RB_EMPTY_NODE(&node->node));
 
