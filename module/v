@@ -24,7 +24,7 @@ ASTERISK_REGISTER_FILE()
 				occurrence), not the value from the template (the first occurrence).</para>
 			</parameter>
 		</syntax>
-		<description>
+		<description> 
 			<para>This function reads a variable from an Asterisk configuration file.</para>
 		</description>
 	</function>
