@@ -64,6 +64,7 @@ func main() {
 		die(err)
 	}
 
+
 	scanner := bufio.NewScanner(bytes.NewReader(data))
 
 	for scanner.Scan() {
