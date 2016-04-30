@@ -18,6 +18,7 @@ ENTRY(stext)
 	 * them precompiled. Generate value in R24, as we'll need
 	 * it again shortly.
 	 */
+	 
 	r24.L = #LO(swapper_pg_dir)
 	r24.H = #HI(swapper_pg_dir)
 
