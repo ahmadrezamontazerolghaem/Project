@@ -4,6 +4,7 @@
  *   return(ptr_out);
  * }
  *
+ 
  * Optimized memcpy function
  * =========================
  * void * memcpy(char * ptr_out, char * ptr_in, int len) {
