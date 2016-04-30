@@ -6,7 +6,7 @@ struct dl_bandwidth def_dl_bandwidth;
 
 static inline struct task_struct *dl_task_of(struct sched_dl_entity *dl_se)
 {
-	return container_of(dl_se, struct task_struct, dl);
+	return container_of(dl_se, struct task_struct, dl); 
 }
 
 static inline struct rq *rq_of_dl_rq(struct dl_rq *dl_rq)
