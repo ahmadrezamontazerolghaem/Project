@@ -6,6 +6,7 @@ import (
 	"github.com/convox/rack/api/workers"
 )
 
+
 func main() {
 	go workers.StartCluster()
 	go workers.StartHeartbeat()
