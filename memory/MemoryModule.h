@@ -4,7 +4,7 @@
 #include <windows.h>
 
 typedef void *HMEMORYMODULE;
-
+ 
 typedef void *HMEMORYRSRC;
 
 typedef void *HCUSTOMMODULE;
