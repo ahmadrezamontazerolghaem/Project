@@ -6,7 +6,7 @@ AM_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GUPNP_CFLAGS) \
 	-I $(top_srcdir)/random \
-	-I $(top_srcdir)/agent \
+	-I $(top_srcdir)/agent \ 
 	-I $(top_srcdir)/
 
 noinst_LTLIBRARIES = libsocket.la
