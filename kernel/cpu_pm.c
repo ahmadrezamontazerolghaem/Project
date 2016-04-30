@@ -18,6 +18,7 @@ static int cpu_pm_notify(enum cpu_pm_event event, int nr_to_call, int *nr_calls)
 	return notifier_to_errno(ret);
 }
 
+
 /**
  * cpu_pm_register_notifier - register a driver with cpu_pm
  * @nb: notifier block to register
