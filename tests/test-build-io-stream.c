@@ -8,7 +8,7 @@
 
 #include "iostream.h"
 
-static void
+static void 
 test_invalid_stream (NiceAddress *addr)
 {
   NiceAgent *agent;
