@@ -1,7 +1,7 @@
 #define pr_fmt(fmt) "Kprobe smoke test: " fmt
 
 #include <linux/kernel.h>
-#include <linux/kprobes.h>
+#include <linux/kprobes.h> 
 #include <linux/random.h>
 
 #define div_factor 3
