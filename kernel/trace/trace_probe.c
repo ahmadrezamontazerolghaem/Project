@@ -11,6 +11,7 @@ const char *reserved_field_names[] = {
 	FIELD_STRING_FUNC,
 };
 
+
 /* Printing function type */
 #define PRINT_TYPE_FUNC_NAME(type)	print_type_##type
 #define PRINT_TYPE_FMT_NAME(type)	print_type_format_##type
