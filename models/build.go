@@ -23,7 +23,7 @@ type Build struct {
 	Manifest string `json:"manifest"`
 	Release  string `json:"release"`
 	Status   string `json:"status"`
-
+ 
 	Started time.Time `json:"started"`
 	Ended   time.Time `json:"ended"`
 
