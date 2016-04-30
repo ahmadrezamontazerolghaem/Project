@@ -3,7 +3,7 @@ var PauseNotifications = false
 // uniform error handling
 func NotifyError(action string, err error, data map[string]string) error {
 	data["message"] = err.Error()
-	return Notify(action, "error", data)
+	return Notify(action, "error", data) 
 }
 
 func NotifySuccess(action string, data map[string]string) error {
