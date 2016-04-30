@@ -15,6 +15,7 @@ static void mask_irq_num(unsigned int irq)
 static void unmask_irq(struct irq_data *data)
 {
 	__vmintop_locen((long) data->irq);
+	
 }
 
 /*  This is actually all we need for handle_fasteoi_irq  */
