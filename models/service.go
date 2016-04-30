@@ -2,8 +2,7 @@ type Service client.Service
 type Services []Service
 
 func ListServices() (Services, error) {
-	res, err := DescribeStacks()
-
+	res, err := DescribeStacks() 
 	if err != nil {
 		return nil, err
 	}
