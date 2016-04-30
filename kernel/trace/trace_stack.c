@@ -14,6 +14,7 @@
 
 #include "trace.h"
 
+
 #define STACK_TRACE_ENTRIES 500
 
 #ifdef CC_USING_FENTRY
