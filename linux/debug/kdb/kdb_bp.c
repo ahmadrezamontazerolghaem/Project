@@ -3,7 +3,7 @@
 #include <linux/init.h>
 #include <linux/kdb.h>
 #include <linux/kgdb.h>
-#include <linux/smp.h>
+#include <linux/smp.h> 
 #include <linux/sched.h>
 #include <linux/interrupt.h>
 #include "kdb_private.h"
