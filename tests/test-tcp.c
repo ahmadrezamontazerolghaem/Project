@@ -7,7 +7,7 @@
 
 #include "socket.h"
 
-GMainLoop *mainloop = NULL;
+GMainLoop *mainloop = NULL; 
 NiceSocket *active_sock, *client;
 NiceSocket *passive_sock, *server;
 NiceAddress tmp;
