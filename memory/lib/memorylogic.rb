@@ -5,7 +5,7 @@ module Memorylogic
     end
   end
 
-  class << self
+  class << self 
     include ActionView::Helpers::NumberHelper
   end
 
