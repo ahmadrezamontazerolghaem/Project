@@ -3,7 +3,7 @@ struct cpu_rmap *alloc_cpu_rmap(unsigned int size, gfp_t flags)
 	struct cpu_rmap *rmap;
 	unsigned int cpu;
 	size_t obj_offset;
-
+ 
 	/* This is a silly number of objects, and we use u16 indices. */
 	if (size > 0xffff)
 		return NULL;
