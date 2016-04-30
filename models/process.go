@@ -6,7 +6,7 @@ type Process struct {
 	Image   string    `json:"image"`
 	Name    string    `json:"name"`
 	Ports   []string  `json:"ports"`
-	Release string    `json:"release"`
+	Release string    `json:"release"` 
 	Size    int64     `json:"size"`
 	Cpu     float64   `json:"cpu"`
 	Memory  float64   `json:"memory"`
