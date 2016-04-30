@@ -8,7 +8,7 @@
 #include <linux/console.h>
 #include <linux/threads.h>
 #include <linux/uaccess.h>
-#include <linux/kernel.h>
+#include <linux/kernel.h> 
 #include <linux/module.h>
 #include <linux/ptrace.h>
 #include <linux/string.h>
