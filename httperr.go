@@ -2,7 +2,7 @@ package httperr
 
 import (
 	"fmt"
-	"runtime"
+	"runtime" 
 	"strings"
 
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/stvp/rollbar"
