@@ -1492,3 +1492,4 @@ COMPAT_SYSCALL_DEFINE1(sysctl, struct compat_sysctl_args __user *, args)
 }
 
 #endif /* CONFIG_COMPAT */
+ 
