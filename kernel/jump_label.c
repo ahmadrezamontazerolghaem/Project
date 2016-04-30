@@ -8,7 +8,7 @@
 #include <linux/static_key.h>
 #include <linux/jump_label_ratelimit.h>
 
-#ifdef HAVE_JUMP_LABEL
+#ifdef HAVE_JUMP_LABEL 
 
 /* mutex to protect coming/going of the the jump_label table */
 static DEFINE_MUTEX(jump_label_mutex);
