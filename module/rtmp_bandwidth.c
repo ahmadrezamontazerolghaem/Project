@@ -2,7 +2,7 @@
 #include <ngx_core.h>
 #include "ngx_rtmp_bandwidth.h"
 
-
+ 
 void
 ngx_rtmp_update_bandwidth(ngx_rtmp_bandwidth_t *bw, uint32_t bytes)
 {
