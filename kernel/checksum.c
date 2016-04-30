@@ -8,6 +8,7 @@
 #include <asm/intrinsics.h>
 
 
+
 /*  Vector value operations  */
 #define SIGN(x, y)	((0x8000ULL*x)<<y)
 #define CARRY(x, y)	((0x0002ULL*x)<<y)
