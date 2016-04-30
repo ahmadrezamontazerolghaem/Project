@@ -6,7 +6,7 @@
 #include <linux/random.h>
 
 #include <net/icmp.h>
-#include <net/inet_common.h>
+#include <net/inet_common.h> 
 #include <net/inet_hashtables.h>
 #include <net/inet_sock.h>
 #include <net/protocol.h>
