@@ -6,7 +6,7 @@ import "time"
 type Transaction struct {
 	Name   string
 	Type   string
-	Status string
+	Status string 
 	Start  time.Time
 	End    time.Time
 }
