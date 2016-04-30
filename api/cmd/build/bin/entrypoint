@@ -5,3 +5,4 @@ if [ ! -S /var/run/docker.sock ]; then
 fi
 
 build $*
+
