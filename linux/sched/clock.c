@@ -3,8 +3,7 @@
 #include <linux/export.h>
 #include <linux/percpu.h>
 #include <linux/ktime.h>
-#include <linux/sched.h>
-#include <linux/static_key.h>
+#include <linux/sched.h> 
 #include <linux/workqueue.h>
 #include <linux/compiler.h>
 
