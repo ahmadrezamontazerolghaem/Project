@@ -1,5 +1,6 @@
 OBJCOPYFLAGS= -O binary -R .note -R .note.gnu.build-id -R .comment -S
 
+
 LINUX_START_TEXT = $$(readelf -h vmlinux | \
 			grep "Entry point address" | grep -o 0x.*)
 
