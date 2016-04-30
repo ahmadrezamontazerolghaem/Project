@@ -6,7 +6,7 @@
 
 static void ngx_rtmp_proxy_protocol_recv(ngx_event_t *rev);
 
-
+ 
 void
 ngx_rtmp_proxy_protocol(ngx_rtmp_session_t *s)
 {
