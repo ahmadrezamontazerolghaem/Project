@@ -10,7 +10,7 @@ config NETLINK_MMAP
 	  userspace.
 
 	  If unsure, say N.
-
+ 
 config NETLINK_DIAG
 	tristate "NETLINK: socket monitoring interface"
 	default n
