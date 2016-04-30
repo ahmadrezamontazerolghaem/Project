@@ -10,7 +10,7 @@ menuconfig IP_DCCP
 	  protocol that implements bidirectional, unicast connections of
 	  congestion-controlled, unreliable datagrams. It should be suitable
 	  for use by applications such as streaming media, Internet telephony,
-	  and on-line games.
+	  and on-line games. 
 
 	  To compile this protocol support as a module, choose M here: the
 	  module will be called dccp.
