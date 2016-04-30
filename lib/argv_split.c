@@ -3,7 +3,7 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 #include <linux/export.h>
-
+ 
 static int count_argc(const char *str)
 {
 	int count = 0;
