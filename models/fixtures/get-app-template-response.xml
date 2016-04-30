@@ -9,7 +9,7 @@
 
 
 
-
+ 
       &quot;BlankCluster&quot;: { &quot;Fn::Equals&quot;: [ { &quot;Ref&quot;: &quot;Cluster&quot; }, &quot;&quot; ] }
     },
     &quot;Parameters&quot; : {
