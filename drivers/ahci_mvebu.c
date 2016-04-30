@@ -6,6 +6,7 @@
 #include <linux/platform_device.h>
 #include "ahci.h"
 
+
 #define AHCI_VENDOR_SPECIFIC_0_ADDR  0xa0
 #define AHCI_VENDOR_SPECIFIC_0_DATA  0xa4
 
