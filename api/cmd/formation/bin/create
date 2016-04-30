@@ -10,3 +10,4 @@ aws lambda create-function \
   --role $role \
   --handler lambda.external \
   --zip-file fileb://lambda.zip
+
