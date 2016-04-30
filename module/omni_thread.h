@@ -12,7 +12,7 @@ static inline omni_thread_t omni_thread_create(
 }
 
 static inline void omni_thread_stop(omni_thread_t _thread)
-{
+{ 
 	if( _thread )
 	{
 		/* send kill */
