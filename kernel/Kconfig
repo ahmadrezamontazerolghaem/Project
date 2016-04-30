@@ -30,6 +30,7 @@ config HEXAGON
 	---help---
 	  Qualcomm Hexagon is a processor architecture designed for high
 	  performance and low power across a wide variety of applications.
+	  
 
 config HEXAGON_PHYS_OFFSET
 	def_bool y
