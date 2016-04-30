@@ -3,7 +3,7 @@
 #include <linux/sched.h>
 #include <linux/kdebug.h>
 #include <linux/kgdb.h>
-
+ 
 /* All registers are 4 bytes, for now */
 #define GDB_SIZEOF_REG 4
 
