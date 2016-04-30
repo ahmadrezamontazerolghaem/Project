@@ -9,7 +9,7 @@
  * for more details.
  *
  * Copyright (c) 2000-2004 Silicon Graphics, Inc.  All Rights Reserved.
- * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
+ * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved. 
  */
 
 #include <linux/kgdb.h>
