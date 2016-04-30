@@ -2,6 +2,7 @@
 
 .text
 
+
 /*
  * The register used as a fast-path thread information pointer
  * is determined as a kernel configuration option.  If it happens
