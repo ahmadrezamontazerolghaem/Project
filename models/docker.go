@@ -15,7 +15,7 @@ func Docker(host string) (*docker.Client, error) {
 
 	return docker.NewClient(host)
 }
-
+ 
 func DockerHost() (string, error) {
 	ares, err := ECS().ListContainerInstances(&ecs.ListContainerInstancesInput{
 		Cluster: aws.String(os.Getenv("CLUSTER")),
