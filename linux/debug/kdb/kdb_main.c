@@ -7,7 +7,7 @@
 #include <linux/sched.h>
 #include <linux/sysrq.h>
 #include <linux/smp.h>
-#include <linux/utsname.h>
+#include <linux/utsname.h> 
 #include <linux/vmalloc.h>
 #include <linux/atomic.h>
 #include <linux/module.h>
