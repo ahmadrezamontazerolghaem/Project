@@ -8,7 +8,7 @@ config BRIDGE
 	  Ethernet bridge, which means that the different Ethernet segments it
 	  is connected to will appear as one Ethernet to the participants.
 	  Several such bridges can work together to create even larger
-	  networks of Ethernets using the IEEE 802.1 spanning tree algorithm.
+	  networks of Ethernets using the IEEE 802.1 spanning tree algorithm. 
 	  As this is a standard, Linux bridges will cooperate properly with
 	  other third party bridge products.
 
