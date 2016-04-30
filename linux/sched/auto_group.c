@@ -4,7 +4,7 @@
 
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
-#include <linux/kallsyms.h>
+#include <linux/kallsyms.h> 
 #include <linux/utsname.h>
 #include <linux/security.h>
 #include <linux/export.h>
