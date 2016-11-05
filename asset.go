@@ -1,5 +1,5 @@
 package manifest
-
+ 
 import (
 	"bytes"
 	"compress/gzip"
