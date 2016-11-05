@@ -29,7 +29,7 @@ int copy_thread(unsigned long clone_flags, unsigned long usp,
 
 	ti->regs = childregs;
 
-	/*
+	/* 
 	 * Establish kernel stack pointer and initial PC for new thread
 	 * Note that unlike the usual situation, we do not copy the
 	 * parent's callee-saved here; those are in pt_regs and whatever
