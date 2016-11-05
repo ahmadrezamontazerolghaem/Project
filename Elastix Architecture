@@ -27,3 +27,4 @@ The Asterisk spool will be found under the /var/spool/asterisk directory.
 Logging
 
 Asterisk is capable of generating several different kinds of log files. The /var/log/asterisk folder is where things such as call detail records (CDRs), channel events from CEL, debug logs, queue logs, messages, errors, and other output are written.
+ 
