@@ -1,4 +1,4 @@
-targets	:= vmlinux.bin
+xtargets	:= vmlinux.bin
 
 $(obj)/vmlinux.bin: vmlinux FORCE
 	$(call if_changed,objcopy)
