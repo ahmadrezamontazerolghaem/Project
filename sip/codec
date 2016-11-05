@@ -58,7 +58,7 @@ abstract class SipFirstLineDecodingState extends DecodingStateMachine
                     // some sort of request and process it as such.
                     return new ReadRequestUriState();
                 default:
-                    return new ReadRequestUriState();
+                    return  new ReadRequestUriState();
                 }
             }
 
