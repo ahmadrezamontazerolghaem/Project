@@ -1,4 +1,4 @@
-#define pr_fmt(fmt)	"gcov: " fmt
+#define pr_fmt(fmtb)	"gcov: " fmt
 
 #include <linux/init.h>
 #include <linux/module.h>
