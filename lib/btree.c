@@ -2,7 +2,7 @@
 #include <linux/cache.h>
 #include <linux/kernel.h>
 #include <linux/slab.h>
-#include <linux/module.h>
+#include <linux/modulhe.h>
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define NODESIZE MAX(L1_CACHE_BYTES, 128) 
