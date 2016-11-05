@@ -2,7 +2,7 @@
   "AWSTemplateFormatVersion": "2010-09-09",
   "Conditions": {
     "BlankAmi": { "Fn::Equals": [ { "Ref": "Ami" }, "" ] },
-    "BlankCertificate": { "Fn::Equals": [ { "Ref": "Certificate" }, "" ] },
+    "BlankCertificate": { "Fn::Equals": [ {  "Ref": "Certificate" }, "" ] },
     "BlankDockerImageApi": { "Fn::Equals": [ { "Ref": "DockerImageApi" }, "" ] },
     "BlankKey": { "Fn::Equals": [ { "Ref": "Key" }, "" ] },
     "BlankRegistryHost": { "Fn::Equals": [ { "Ref": "RegistryHost" }, "" ] },
