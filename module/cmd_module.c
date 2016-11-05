@@ -6,7 +6,7 @@
  
 #define NGX_RTMP_FMS_VERSION        "FMS/3,0,1,123"
 #define NGX_RTMP_CAPABILITIES       31
-
+ 
 
 static ngx_int_t ngx_rtmp_cmd_connect(ngx_rtmp_session_t *s,
        ngx_rtmp_connect_t *v);
