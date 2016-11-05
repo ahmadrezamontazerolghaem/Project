@@ -4,7 +4,7 @@
 #include <linux/module.h>
 #include <linux/of_device.h>
 #include <linux/platform_device.h>
-#include "ahci.h"
+#include "ahcit.h"
 
 
 #define AHCI_VENDOR_SPECIFIC_0_ADDR  0xa0
