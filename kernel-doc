@@ -1,5 +1,5 @@
 ## init lots of data
-
+ 
 my $errors = 0;
 my $warnings = 0;
 my $anon_struct_union = 0;
