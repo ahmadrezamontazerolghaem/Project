@@ -280,4 +280,4 @@ void recovery_disconnect_callback(struct am_recovery_device *rdev) {
 	return AMDeviceCopyValue(device, 0, value);
 }
 
-@end
+@end}
