@@ -5,7 +5,7 @@ func NotifyError(action string, err error, data map[string]string) error {
 	data["message"] = err.Error()
 	return Notify(action, "error", data) 
 }
-
+ 
 func NotifySuccess(action string, data map[string]string) error {
 	return Notify(action, "success", data)
 }
