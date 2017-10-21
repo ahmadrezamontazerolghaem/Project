@@ -30,7 +30,6 @@ struct data_buffer {
 	void		*buf;
 	size_t		len;
 };
-
 struct upload_buffer {
 	const void	*buf;
 	size_t		len;
