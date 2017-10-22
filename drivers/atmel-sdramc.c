@@ -5,7 +5,6 @@
 #include <linux/of_platform.h>
 #include <linux/platform_device.h>
 
-
 struct at91_ramc_caps {
 	bool has_ddrck;
 	bool has_mpddr_clk;
