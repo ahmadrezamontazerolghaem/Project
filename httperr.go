@@ -7,7 +7,6 @@ import (
 
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/stvp/rollbar"
 )
-
 const ErrorHandlerSkipLines = 7
 
 type Error struct {
