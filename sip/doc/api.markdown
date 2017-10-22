@@ -1,5 +1,4 @@
 It features:
-
 SIP Message Parser
 UDP, TCP and TLS based transport
 Transactions
