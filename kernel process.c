@@ -6,8 +6,7 @@
 #include <linux/slab.h>
 #include <linux/tracehook.h>
 void start_thread(struct pt_regs *regs, unsigned long pc, unsigned long sp)
-{
-	/* Set to run with user-mode data segmentation */
+{	/* Set to run with user-mode data segmentation */
 	set_fs(USER_DS);
 	/* We want to zero all data-containing registers. Is this overkill? */
 	memset(regs, 0, sizeof(*regs));
