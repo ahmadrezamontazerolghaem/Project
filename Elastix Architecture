@@ -1,5 +1,4 @@
 File Structure
-
 Elastix is a complex system, composed of many resources. These resources make use of the filesystem in several ways. Since Linux is so flexible in this regard, it is helpful to understand what data is being stored, so that you can understand where you are likely to find a particular bit of stored data (such as voicemail messages or log files).
  
 Configuration Files
