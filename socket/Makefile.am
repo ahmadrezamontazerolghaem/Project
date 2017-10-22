@@ -1,5 +1,4 @@
 include $(top_srcdir)/common.mk
-
 AM_CFLAGS = \
 	-DG_LOG_DOMAIN=\"libnice-socket\" \
 	$(LIBNICE_CFLAGS) \
