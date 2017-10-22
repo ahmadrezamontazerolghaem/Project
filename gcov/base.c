@@ -1,5 +1,4 @@
 #define pr_fmt(fmtb)	"gcov: " fmt
-
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/mutex.h>
