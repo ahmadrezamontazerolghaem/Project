@@ -30,8 +30,7 @@ $(obj)/$(bounds-file): kernel/bounds.s FORCE
 	$(call filechk,offsets,__LINUX_BOUNDS_H__)
 
 #####
-# 2) Generate asm-offsets.h
-#
+# 2) Generate asm-offsets.
 
 offsets-file := include/generated/asm-offsets.h
 
