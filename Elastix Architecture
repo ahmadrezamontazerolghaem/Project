@@ -2,7 +2,6 @@ File Structure
 Elastix is a complex system, composed of many resources. These resources make use of the filesystem in several ways. Since Linux is so flexible in this regard, it is helpful to understand what data is being stored, so that you can understand where you are likely to find a particular bit of stored data (such as voicemail messages or log files).
  
 Configuration Files
-
 The elastix configuration files include extensions.conf, sip.conf, modules.conf, and dozens of other files that define parameters for the various channels, resources, modules, and functions that may be in use.
 
 These files will be found in /etc/asterisk. You will be working in this folder a lot as you configure and administer your Asterisk system.
